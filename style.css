@@ -1,0 +1,231 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+    color: black;
+    font-family: "Poppins";
+    text-transform: uppercase;
+}
+
+#name {
+    margin-left: 20px;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    position: fixed;
+}
+
+
+li {
+    display: inline;
+    margin: 10px;
+    padding-bottom: 100px;
+    position: relative; 
+    top: 5px;
+    color: white;
+}
+
+
+
+.tesla {
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    background-image: url("test.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+
+.center-logo {
+    display: flex;
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.ho {
+    font-family:"Poppins";
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 3em;
+    margin-right: -3em;
+    transition: color 1s;
+}
+
+.ho:hover {
+    color: black;
+    transition: color 1s;
+    transform: scale(1);
+}
+
+.ho-2 {
+    font-family:"Poppins";
+    text-transform: uppercase;
+    color: black;
+    font-size: 2em;
+    letter-spacing: 1em;
+    margin-right: -1em;
+    transition: color 1s;
+
+}
+
+.ho-2:hover {
+    color: gray;
+    transition: color 1s;
+    transform: scale(1);
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.tesla-2 {
+    height: 100vh;
+    width: auto;
+    background-image: url(wow.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+span>p {
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+}
+
+.tesla-3 {
+    background-image: url("home.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.hello {
+    position: absolute;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+
+.hello>h2 {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.side {
+    display: block;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-family: "Poppins";
+}
+
+.word {
+    font-size: 10px;
+    position: relative;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    transition: left 1s;
+    text-transform: uppercase;
+}
+
+.word:hover {
+    left: 20px;
+    transition: all 1s;
+    transform: left 20px;
+    cursor: none;
+}
+
+.button {
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 5px 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    border: none;
+    background-color: default;
+    transition: background-color 1s;
+}
+
+button:hover {
+    background-color: rgb(132, 190, 178);
+    transform: scale(1);
+}
+.button > span {
+    font-size: 50px;
+    letter-spacing: 10px;
+    position: relative;
+    left: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1em;
+    }
+    
+    .hello {
+        display: none;
+    }
+
+    .nav li {
+        display: none;
+    }
+
+    .tesla {
+        height: 105vh;
+    }
+
+    .tesla-2 {
+        height: 105vh;
+    }
+
+    .tesla-3 {
+        height: 105vh;
+    }
